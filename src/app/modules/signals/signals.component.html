@@ -1,7 +1,8 @@
-<form [formGroup]="userForm">
-    <label for="user-name">Enter your name to continue:</label>
-    <input formControlName="name" id="user-name" />
+<div class="signals">
+  <form [formGroup]="userForm" class="signals__form">
+    <label for="user-name" class="signals__label">Enter your name to continue:</label>
+    <input formControlName="name" id="user-name" class="signals__input" />
 
-    <button>Continue</button>
-</form>
- 
+    <button class="signals__continue-btn">Continue</button>
+  </form>
+</div>
